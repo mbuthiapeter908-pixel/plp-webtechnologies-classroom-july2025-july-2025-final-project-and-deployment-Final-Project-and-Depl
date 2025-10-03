@@ -109,4 +109,5 @@ Inspired by modern restaurant websites and UI/UX best practices
 Thanks to power learning project, tutorials, and libraries that guided this project
 
 
-Live Site URL
+
+Live Site URL https://delishrestaurantweb.netlify.app/
