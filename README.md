@@ -1,90 +1,112 @@
-# 📦 Final Assignment: Build, Organize, and Deploy a Multipage Website
+# Delish Restaurant Website
 
-You're now ready to bring everything together—HTML, CSS, JavaScript, planning, structure, and deployment. This final project challenges you to **conceptualize, build, and deploy a multi-page website** that is responsive, interactive, and ready for the real world.
+![License]
+---
 
-This assignment will guide you from planning your site all the way to deploying it online. Let’s make your project *production-worthy*! 🚀
+## Introduction / About The Project
+
+**Delish Restaurant Website** is a modern, responsive, multi-page static website designed to showcase a restaurant’s brand, menu, gallery, team, and contact information.  
+It features smooth animations, interactive elements, and a **dark mode toggle** for an elegant browsing experience.  
+This project is ideal for restaurant owners, web developers, or designers looking for a stylish, production-ready web presence.
 
 ---
 
-## 🌐🎯 Part 1: Planning and Organizing a Multipage Website
+## Key Features
 
-Before you write any code, take time to plan:
-
-* Define your website's purpose (portfolio, product showcase, blog, etc.)
-* Outline 3–5 pages (e.g., Home, About, Services, Contact, Gallery)
-* Sketch or describe the layout of each page
-* Map out internal navigation (how pages link to one another)
-
-**Goal:** Show intentional structure and user journey across the site.
+- Fully responsive design for desktop, tablet, and mobile devices  
+- Multi-page layout: Home, About, Menu, Gallery, Contact  
+- Dark mode toggle for light/dark themes with smooth transitions  
+- Interactive elements: animated fade-ins, hover effects on cards and buttons  
+- Clean and modular code using HTML5, CSS3, and JavaScript  
+- Ready-to-deploy structure suitable for GitHub Pages, Netlify, or Vercel  
 
 ---
 
-## 🌍💻 Part 2: Build the Website Using HTML5, CSS, and JavaScript
+## Screenshots / Demo
 
-Using your plan, begin building:
+![Home Page](images/screenshot-home.png)  
+![About Page](images/screenshot-about.png)  
 
-* Use HTML5 for semantic structure
-* Apply CSS for responsive layout, styling, and animations
-* Use JavaScript to add interactivity (menus, forms, toggles, dynamic content)
-
-Each page should:
-
-* Be mobile-responsive
-* Share a consistent layout/header/footer
-* Include at least one interactive element (e.g., form validation, toggle menu, animation on scroll)
-
-**Goal:** Integrate everything you’ve learned in a cohesive, functioning project.
 
 ---
 
-## 🛠️🚀 Part 3: Best Practices for Code Organization
+## Quick Start / Installation
 
-Before deployment, refactor your project to follow production-friendly practices:
+### Running Locally
 
-* Organize files in folders (`/css`, `/js`, `/images`, etc.)
-* Write clean, modular, and commented code
-* Use meaningful file names and relative paths
-* Validate your HTML/CSS and test on different screen sizes
+1. Clone the repository:
 
-**Goal:** Prepare your codebase to be readable, maintainable, and scalable.
+`bash
+git clone https://github.com/yourusername/restaurant-website.git
 
 ---
 
-## 🌐🚀 Part 4: Introduction to Hosting and Deployment
+## navigate to the project folder
+cd restaurant-website
 
-Once your project is complete, choose a method to **host your site online**.
 
-You can use:
+Open index.html in your preferred web browser.
 
-* **GitHub Pages** (great for portfolios and static sites)
-* **Netlify** (powerful CI/CD features and easy form support)
-* **Vercel** (lightning-fast deployment for frontend projects)
+No additional dependencies required — this is a fully static website.
 
-Deploy your project and confirm that:
+Usage
 
-* All links and scripts work
-* It loads properly on mobile and desktop
-* It has a clear, shareable URL
+Navigate through pages using the top navigation menu.
 
-**Goal:** Publish your work online and make it accessible to the world.
+Click the dark mode toggle button to switch between light and dark themes.
 
----
+Explore interactive elements, hover effects, and animations on each page.
 
-## Deliverables
+  
 
-1. A GitHub repository containing:
+  restaurant-website/
+│── index.html        (Home Page)
+│── about.html        (About Page)
+│── menu.html         (Menu Page)
+│── gallery.html      (Gallery Page)
+│── contact.html      (Contact Page)
+│── css/
+│    └── style.css    (All styling, including dark mode)
+│── js/
+│    └── main.js      (JavaScript for dark mode toggle and animations)
+│── images/
+│    └── (All restaurant images)
+│── README.md         (Project documentation)
 
-   * Your complete project code, properly organized
-   * A `README.md` file explaining your project purpose, structure, and live URL
-2. A live deployed website (hosted via GitHub Pages, Netlify, or Vercel)
 
----
+Configuration
 
-## Outcome
+The dark mode toggle works through a single button (#theme-toggle) and toggles a dark-theme class on <body>.
 
-* Clarity and thoroughness of planning documentation
-* Proper use of HTML5, CSS, and JavaScript across multiple pages
-* Responsive and accessible design
-* Clean, well-organized, and commented code
-* Successful live deployment with a working link
-* Evidence of following best practices
+CSS variables and classes are organized to ensure consistent styling across all pages.
+
+
+Contributing
+
+Contributions are welcome! Suggested steps:
+
+Fork the repository
+
+Create a new branch: git checkout -b feature-name
+
+Make your changes and commit: git commit -m "Add feature or fix"
+
+Push to your branch: git push origin feature-name
+
+Open a pull request for review
+
+
+License
+
+This project is licensed under the MIT License 
+
+Acknowledgements
+
+Built using HTML5, CSS3, and JavaScript
+
+Inspired by modern restaurant websites and UI/UX best practices
+
+Thanks to power learning project, tutorials, and libraries that guided this project
+
+
+Live Site URL
