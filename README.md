@@ -18,7 +18,9 @@ This project is ideal for restaurant owners, web developers, or designers lookin
 - Dark mode toggle for light/dark themes with smooth transitions  
 - Interactive elements: animated fade-ins, hover effects on cards and buttons  
 - Clean and modular code using HTML5, CSS3, and JavaScript  
-- Ready-to-deploy structure suitable for GitHub Pages, Netlify, or Vercel  
+- Ready-to-deploy structure suitable for GitHub Pages, Netlify, or Vercel 
+-- 🌐 Integrated social media icons (Facebook, Twitter, Instagram, WhatsApp) in the Contact section with hover animations for a stylish look.
+ 
 
 ---
 
