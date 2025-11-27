@@ -106,9 +106,8 @@ Acknowledgements
 
 Built using HTML5, CSS3, and JavaScript
 
-Inspired by modern restaurant websites and UI/UX best practices
 
 Thanks to power learning project, tutorials, and libraries that guided this project
 
 
-Live Site URL
+Live Site URL https://restaurant-delish-drab.vercel.app/
